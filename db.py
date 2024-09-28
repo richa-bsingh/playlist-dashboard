@@ -4,7 +4,7 @@ import pandas as pd
 # MongoDB connection
 def get_mongo_data():
     # Connect to MongoDB instance
-    client = pymongo.MongoClient("mongodb://localhost:27017/")  # Replace with your MongoDB URI
+    client = pymongo.MongoClient("mongodb+srv://richadb:mongodb123@cluster0.2f8jo.mongodb.net")  # Replace with your MongoDB URI
     db = client['playlist-hack24']  # Replace with your database name
     songs_collection = db['Songs']  # Replace with your collection name
 
